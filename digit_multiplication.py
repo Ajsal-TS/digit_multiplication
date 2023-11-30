@@ -13,5 +13,5 @@ def calc(word,lst):
     lst.append(value)
     calc(value,lst)
 
-n=eval(input("enter the element."))
-calc(n,lst=[])
+input_no=eval(input("enter the element."))
+calc(input_no,lst=[])
